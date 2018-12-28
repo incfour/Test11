@@ -11,9 +11,7 @@ AMyActor::AMyActor()
 	PrimaryActorTick.bCanEverTick = true;
 
 	USphereComponent* SphereComponent = CreateDefaultSubobject<USphereComponent>(TEXT("RootComponent"));
-	RootComponent = SphereComponent;
-
-	
+	RootComponent = SphereComponent;	
 }
 
 // Called when the game starts or when spawned
